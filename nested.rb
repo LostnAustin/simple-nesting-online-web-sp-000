@@ -91,22 +91,6 @@ def adding_matz
 			programmer_hash[:yukihiro_matsumoto][:languages] = ["LISP", "C"]
 
 			programmer_hash
-		# yukihiro_matsumoto = [:known_for => "Ruby"] [:languages => ["LISP", "C"]]
-		# programmer_hash[user] = [:yukihiro_matsumoto]
-		# programmer_hash.merge(programmer_hash[user])
-
-			#programmer_hash[:first] = "yukihiro_matsumoto"
-	#		programmer_hash[:yukihiro_matsumoto] = :known_for
-		#	programmer_hash[:yukihiro_matsumoto][:known_for] = "Ruby"
-		#known_for = yukihiro_matsumoto[:known_for]
-		#known_for << "Ruby"
-
-		#languages = yukihiro_matsumoto[:languages]
-		#languages << ["LISP", "C"]
-
-		# programmer_hash[:yukihiro_matsumoto] = [:known_for], [:languages]
-		 #programmer_hash[:yukihiro_matsumoto][:known_for] = "Ruby"
-		  #programmer_hash[:yukihiro_matsumoto][:languages] = ["LISP", "C"]
 
 end
 
@@ -129,7 +113,7 @@ def changing_alan
      #change what Alan Kay is :known_for to the value of the alans_new_info variable.
      alans_new_info = "GUI"
 
-
+		 programmer_hash[:alan_kay][:known_for] = "GUI"
 end
 
 def adding_to_dennis
